@@ -1,0 +1,93 @@
+.implinks{
+    background-color: #fff;
+    padding: 50px 100px 10px 100px;
+
+}
+.topic{
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 18px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.heading{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.topic-wise-section a{
+    position: relative;
+    font-size: 10px;
+    line-height: 200%;
+    font-weight: 600;
+    color: #424242;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.topic-wise-section span{
+    margin-right: 5px;
+}
+.implinks a:hover{
+    color:#ff783c !important ;
+}
+.implinks a:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+.implinks a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff783c;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .payments{
+    width: 100%;
+    display: flex;
+    bottom: 5px;
+    justify-content: space-between;
+}
+.payment-mode p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+    display: inline-block;
+    margin-right: 6px;
+}
+.payment-mode img{
+    display: inline-block;
+    margin-right: 6px;
+}
+.payment-security img{
+    display: inline-block;
+    margin-right: 6px;
+}
+@media only screen and (max-width: 740px) {
+    .topic-wise-section a{
+        font-size: 10px;
+        line-height: 200%;
+        font-weight: 600;
+        color: #424242;
+        text-decoration: none;
+        display: block;
+    }
+    .implinks{
+        padding: 50px 30px;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+   .payments{
+       display: inline-block;
+   }
+   .payment-security img{
+    margin-top: 10px;
+}
+  }
+

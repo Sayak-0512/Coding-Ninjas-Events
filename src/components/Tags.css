@@ -1,0 +1,13 @@
+.tagstext{
+    display: inline-block;
+    background-color: #eee;
+    color: #616161;
+    height: fit-content;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    padding: 4px 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

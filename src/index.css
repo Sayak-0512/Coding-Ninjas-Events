@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+body {
+  margin: 0;
+  font-family: Mulish,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,61 @@
+.footer h6{
+    font-size: 16px;
+}
+.footer a{
+    position: relative;
+    font-size: 14px;
+    text-decoration: none !important;
+    color: white !important;
+}
+.footer a:hover{
+    color:#ff783c !important ;
+}
+.footer a:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+.footer a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff783c;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+.footer{
+    background-color: #1c0d04;
+    color: #fff;
+    padding: 50px 70px 50px 70px;
+}
+.codingninja-img{
+    height: 76px;
+    margin-top: 19px;
+    max-width: 100%;
+}
+.icon{
+    /* padding: 4px; */
+    margin: 3px;
+    /* border: 2px solid grey; */
+    /* border-radius: 100%; */
+}
+.footer .icon:hover{
+    color: #fff !important;
+}
+.footer .icon:hover:before{
+    visibility: hidden;
+}
+.iconphone{
+    width: 20px !important;
+}
+.iconphone:hover{
+   color: white !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .footer{
+        padding: 50px 30px 50px 30px;
+    } 
+}

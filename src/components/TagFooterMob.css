@@ -1,0 +1,66 @@
+.tag-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%), 0 3px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 14%);
+    padding: 18px 16px;
+    color: #757575;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.text{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.dropup-menu{
+z-index: 1030;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #fff;
+}
+.dropup-header{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%), 0 3px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 14%);
+    padding: 12px 20px;
+    font-weight: 500;
+    color: #757575;
+    font-size: 18px;
+    align-items: center;
+}
+.back-icon{
+    cursor: pointer;
+    margin-right: 13px;
+}
+.dropup-footer{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%), 0 3px 1px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 14%);
+    background: linear-gradient(95.95deg,rgb(246, 67, 15) 0.78%, rgb(238, 159, 21) 99.43%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 13px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.dropup-body{
+    display: flex;
+    margin: 38px 16px;
+    flex-wrap: wrap;
+    height: 68%;
+    overflow: scroll;
+}
+.dropup-menu::-webkit-scrollbar {
+    display: none;
+}
+.dropup-body::-webkit-scrollbar {
+    display: none;
+}
