@@ -1,6 +1,6 @@
 # Coding Ninjas Events
 
-##General Info
+## General Info
 This project was a clone of [Coding Ninjas](https://www.codingninjas.com/events?event_category=ALL_EVENTS&event_sub_category=Upcoming&page=1#eventsWrapper).
 
 ## Technologies
