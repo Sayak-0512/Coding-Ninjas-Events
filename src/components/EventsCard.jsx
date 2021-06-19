@@ -151,18 +151,18 @@ export default function UpcomingEventsCard({ event }) {
                 {event.short_desc}
               </Typography>
             </Grid>
-            {matchesLaptop && (
+            {matchesLaptop && 
               <Grid item xs={12}>
                 <div className={classes.tagsection}>
-                  {event.card_tags.forEach((eachTag, index) => {
-                    if (index < 3) return <TagsInCard text={eachTag} />;
-                  })}
+                  {event.card_tags.map((eachTag, index) => 
+                    index < 3 && <TagsInCard text={eachTag} />
+                  )}
                   {event.card_tags.length > 3 && (
                     <div className={classes.plusone}>+1 more</div>
                   )}
                 </div>
               </Grid>
-            )}
+            }
           </Grid>
           <Divider light />
           <CardFooter
